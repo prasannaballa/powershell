@@ -1,0 +1,9 @@
+
+PS C:\Users\balla.kumar> Start-Process notepad
+PS C:\Users\balla.kumar> Start-Process notepad
+PS C:\Users\balla.kumar> Stop-Process -name  notepad
+PS C:\Users\balla.kumar> Start-Process notepad
+
+Get-Command -Module Microsoft.PowerShell.Management
+Get-Item . # it will showe directory
+get-Item * # it will showe all the directory and file loacted into your computer
